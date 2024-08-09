@@ -1,0 +1,61 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.placar{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pontos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pontos div{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.selecao{
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    gap: 1vh;
+}
+.opcao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.escolhas{
+    display: flex;
+    column-gap: 10vh;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.escolhas div{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.containerPontos{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.titulos h4{
+    width: 33.333%;
+}
+.containerPontos div{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    text-align: center;
+}
